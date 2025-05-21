@@ -9,9 +9,9 @@ include $(INCLUDE_DIR)/package.mk
 define Package/$(PKG_NAME)
 	SECTION:=multimedia
 	CATEGORY:=Multimedia
-    TITLE:=Plex Media Server
-    URL:=https://github.com/jkool702/openwrt-plexmediaserver
-    PKGARCH:=aarch64_cortex-a53
+	TITLE:=Plex Media Server
+	URL:=https://github.com/jkool702/openwrt-plexmediaserver
+	PKGARCH:=aarch64_cortex-a53
 	DEPENDS:=+squashfs-tools-mksquashfs
 	#unzip busybox
 endef
